@@ -11,7 +11,7 @@ Login                                         |  Upcomming non-team events      
 
 Scavenger Hunt                                     |  Sweepstakes                                        | NFC Tag Scanned
 :-------------------------------------------------:|:---------------------------------------------------:|:------------------:
-<img src="Screenshots/Scavenger.png" width="200">  | <img src="Screenshots/Sweepstakes.png" width="200"> | <img src="Screenshots/Scanned.png" width="21">
+<img src="Screenshots/Scavenger.png" width="200">  | <img src="Screenshots/Sweepstakes.png" width="200"> | <img src="Screenshots/Scanned.png" width="215">
 
 
 ### Prerequisites
