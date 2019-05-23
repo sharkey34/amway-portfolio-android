@@ -20,13 +20,6 @@ Android Studio (Newest Version)
 Mac OS X 10.13+
 Android 5.0 (LOLLIPOP)+
 
-### Installing
-
-1. Download Android Studio.
-2. Download the APK.
-3. Open the APK.
-4. Run.
-
 ## Built With
 
 * Android Studio
@@ -34,4 +27,3 @@ Android 5.0 (LOLLIPOP)+
 ## Authors
 
 * **Eric Sharkey**
-
