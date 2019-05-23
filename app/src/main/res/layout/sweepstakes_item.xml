@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/container_view"
+        android:layout_width="404dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/sweepstakes_entries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/container_view"
+        android:layout_alignBottom="@+id/container_view"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/amway_red_light"
+        />
+
+    <TextView
+        android:id="@+id/sweepstakes_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/container_view"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/sweepstakes_entries"
+        android:text="@string/limit"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/amway_blue" />
+
+    <ImageView
+        android:id="@+id/sweepstakes_image"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:contentDescription="@string/content_desc"
+        android:layout_alignStart="@+id/container_view"
+        android:layout_alignTop="@+id/container_view"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-1dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/com_facebook_button_icon_blue" />
+
+    <TextView
+        android:id="@+id/sweepstakes_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/container_view"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="9dp"
+        android:layout_toEndOf="@+id/sweepstakes_image"
+        android:textColor="@color/amway_blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sweepstakes_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sweepstakes_title"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/sweepstakes_image"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:id="@+id/sweepstakes_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/container_view"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/amway_blue"
+        android:layout_toEndOf="@+id/sweepstakes_image"
+        android:text="@string/sweepstakes_entry"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:id="@+id/sweepstakes_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/container_view"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/sweepstakes_entry"
+        android:textColor="@color/amway_red_light"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+</RelativeLayout>

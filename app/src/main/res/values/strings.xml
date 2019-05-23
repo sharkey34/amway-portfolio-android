@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Amway Rewards</string>
+    <string name="powered_by">Powered By: Eric Sharkey</string>
+    <string name="splash_desc">Brand Logo</string>
+    <string name="facebook_application_id">2253975734918804</string>
+    <string name="fb_login_protocol_scheme">fb2253975734918804</string>
+    <string name="login_successful">Login was successful</string>
+    <string name="login_unsuccessful">Login Failed.</string>
+    <string name="or">Or</string>
+    <string name="email">Email</string>
+    <string name="Password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="event_name">%1$s</string>
+    <string name="sign_out">Signed Out</string>
+    <string name="delete_acnt">Your account has been deleted.</string>
+    <string name="signin_successful">Sign in was successful</string>
+    <string name="signin_failed">Sign has failed</string>
+    <string name="signin_cancelled">Cancelled</string>
+    <string name="no_connection">No Network Connection</string>
+    <string name="date_time">%1$s\n%2$s</string>
+    <string name="content_desc">Image</string>
+    <string name="tickets_title">Tickets</string>
+    <string name="events_nav">Events</string>
+    <string name="rewards_nav">Rewards</string>
+    <string name="scavenger_nav">Scavenger Hunt</string>
+    <string name="sweepstakes_nav">Sweepstakes</string>
+    <string name="scanner_nav">Scanner</string>
+    <string name="enable_NFC">Please Enable NFC to use this Feature</string>
+    <string name="scavenger_earn">Earn:</string>
+    <string name="sweepstakes_entry">Entry:</string>
+    <string name="text_points">POINTS</string>
+    <string name="cont_desc">Image</string>
+    <string name="limit">Limit</string>
+    <string name="scan_qr">Scan to Pay</string>
+</resources>
